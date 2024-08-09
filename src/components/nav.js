@@ -23,7 +23,7 @@ const Nav = () => {
 
   return (
     <>
-      <header className='p-2 w-full fixed z-50 bg-white shadow-md'>
+      <header className='p-4 w-full fixed z-50 bg-white shadow-md'>
         <nav className='flex flex-wrap justify-between px-0 sm:px-4'>
           <div className='flex flex-wrap gap-1 sm:gap-4 items-center'>
             <img src='https://i.imgur.com/C6Nd1I0.png' alt='logo' className='w-8 h-8 sm:w-12 sm:h-12' />
