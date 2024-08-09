@@ -63,7 +63,7 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
       <div className="max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 text-white">
         <div>
           <h1 className="text-4xl md:text-4xl lg:text-5xl font-semibold">
-            Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherware store</Cover>
+            Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherauth store</Cover>
           </h1>
           <p className="text-gray-400 py-6 font-semibold text-xl">
             To pay w/ CashApp, Apple Pay, Google Pay, or Venmo, open a ticket in our Discord server!
