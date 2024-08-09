@@ -1,12 +1,10 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { Cover } from "@/components/ui/cover";
 import { FlipWords } from "./ui/flip-words";
 import { FaDiscord, FaYoutube, FaTiktok } from "react-icons/fa";
-import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { FaShoppingCart, FaRegStar } from "react-icons/fa";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
@@ -15,42 +13,17 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
   const feedbacktexts = `Based on verified website purchases`;
 
   return (
-    <motion.section
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-      className="h-fit sm:h-[54rem] rounded-md bg-neutral-900 flex flex-col items-center pt-16 -pb-14 sm:py-20 px-4 relative w-full"
-    >
-      <motion.div
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1.2, delay: 0.2 }}
-        className="max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 text-white"
-      >
-        <motion.h1
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.4 }}
-          className="text-4xl md:text-4xl lg:text-5xl font-semibold"
-        >
-          Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherauth store</Cover>
-        </motion.h1>
-
-        <motion.div
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.6 }}
-          className="text-gray-400 py-6 font-semibold text-xl"
-        >
-          To pay w/<FlipWords words={words} className="text-gray-400" />, Please do open a ticket in our Discord server!
-        </motion.div>
-
-        <motion.div
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          className="flex flex-wrap justify-center items-center gap-12 mt-10 text-3xl sm:text-4xl"
-        >
+    <section className="h-fit sm:h-[54rem] rounded-md bg-neutral-900 flex flex-col items-center pt-16 -pb-14 sm:py-20 px-4 relative w-full">
+      <div className="max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 text-white">
+        <div>
+          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold">
+            Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherware store</Cover>
+          </h1>
+          <div className="text-gray-400 py-6 font-semibold text-xl">
+            To pay w/<FlipWords words={words} className="text-gray-400" />, Please do open a ticket in our Discord server!
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-center items-center gap-12 mt-10 text-3xl sm:text-4xl">
           <div className="flex flex-wrap items-center gap-2 cursor-pointer">
             <FaDiscord className="text-[#7289da]" />
             <h1>Discord</h1>
@@ -63,14 +36,8 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
             <FaYoutube className="text-[#FF0000]" />
             <h1>YouTube</h1>
           </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 1 }}
-          className="pt-14 pb-5 flex flex-wrap justify-center items-center text-2xl lg:text-4xl md:text-3xl sm:gap-2xl gap-14"
-        >
+        </div>
+        <div className="pt-14 pb-5 flex flex-wrap justify-center items-center text-2xl lg:text-4xl md:text-3xl sm:gap-2xl gap-14">
           <div className="flex flex-wrap flex-col justify-center items-center gap-6">
             <div className="flex flex-wrap justify-center items-center gap-2">
               <h1>1478</h1>
@@ -85,34 +52,26 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
             </div>
             <p>User<span className="text-blue-400"> Rating</span></p>
           </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="py-10 w-full flex flex-wrap flex-col justify-center items-center text-center text-2xl sm:gap-4xl gap-5"
-        >
+        </div>
+        <div className="py-10 w-fullflex flex-wrap flex-col justify-center items-center text-center text-2xl sm:gap-4xl gap-5">
           <div className="flex flex-row gap-4 flex-wrap items-center text-center justify-center">
-            <AnimatedTooltip items={people} />
+            {/* Removing AnimatedTooltip for performance */}
           </div>
           <div className="py-8">
-            <TextGenerateEffect words={feedbacktexts} />
+            <TextGenerateEffect words={feedbacktexts}/>
             <div className="py-6">
               <button className='py-3 px-6 w-fit text-center bg-[#007BFF] text-[#ffffff] rounded-lg mt-2 transition-all hover:bg-blue-700'>
                 200+ Positive Feedbacks
               </button>
             </div>
           </div>
-        </motion.div>
-      </motion.div>
-
+        </div>
+      </div>
       <ShootingStars />
       <StarsBackground />
-    </motion.section>
+    </section>
   );
 }
-
 
 const people = [
   {
