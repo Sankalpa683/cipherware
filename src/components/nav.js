@@ -28,8 +28,8 @@ const Nav = () => {
           <div className='flex flex-wrap gap-1 sm:gap-4 items-center'>
             <img src='https://i.imgur.com/C6Nd1I0.png' alt='logo' className='w-8 h-8 sm:w-12 sm:h-12' />
             <h1 className='text-xl sm:text-2xl font-semibold'>
-              {navname ? navname : 'DefaultName'}
-              <span className='text-[#007BFF]'>{spanhighlight ? spanhighlight : ''}</span>
+              {navname ? navname : 'Cipher'}
+              <span className='text-[#007BFF]'>{spanhighlight ? spanhighlight : 'Ware'}</span>
             </h1>
           </div>
           <div className='hidden md:flex flex-wrap items-end gap-6'>
