@@ -54,8 +54,8 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
         </div>
         <div className="py-10 w-fullflex flex-wrap flex-col justify-center items-center text-center text-2xl sm:gap-4xl gap-5">
           <div className="flex flex-row gap-4 flex-wrap items-center text-center justify-center">
-            <AnimatedTooltip items={people} />
-          </div>
+              <AnimatedTooltip items={people} />
+            </div
           <div className="py-8">
             <p className="text-2xl">Based on verified website purchases</p>
             <div className="py-6">
@@ -116,3 +116,4 @@ const people = [
       "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
   },
 ];
+ 
