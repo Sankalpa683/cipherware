@@ -27,7 +27,7 @@ const Nav = () => {
           />
           <h1 className='text-xl sm:text-2xl font-semibold'>
             {navname ? navname : 'Cipher'}
-            <span className='text-[#007BFF]'>{spanhighlight ? spanhighlight : 'Ware'}</span>
+            <span className='text-[#007BFF]'>{spanhighlight ? spanhighlight : 'Auth'}</span>
           </h1>
         </div>
         <div className='hidden md:flex flex-wrap items-end gap-6'>
