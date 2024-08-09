@@ -18,9 +18,9 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
           <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold">
             Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherware store</Cover>
           </h1>
-          <div className="text-gray-400 py-6 font-semibold text-xl">
-            To pay w/<FlipWords words={words} className="text-gray-400" />, Please do open a ticket in our Discord server!
-          </div>
+          <p className="text-gray-400 py-6 font-semibold text-xl">
+             To pay w/ CashApp, Apple Pay, Google Pay, or Venmo, open a ticket in our Discord server!
+          </p>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-12 mt-10 text-3xl sm:text-4xl">
           <div className="flex flex-wrap items-center gap-2 cursor-pointer">
