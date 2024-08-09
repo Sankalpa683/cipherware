@@ -62,7 +62,7 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
     <section className="h-fit sm:h-[54rem] rounded-md bg-neutral-900 flex flex-col items-center pt-16 pb-14 sm:py-20 px-4 relative w-full">
       <div className="max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 text-white">
         <div>
-          <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold">
+          <h1 className="text-4xl md:text-4xl lg:text-5xl font-semibold">
             Get <span className="text-blue-400">Valorant Cheat</span> at <Cover>Cipherware store</Cover>
           </h1>
           <p className="text-gray-400 py-6 font-semibold text-xl">
