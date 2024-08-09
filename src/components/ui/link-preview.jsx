@@ -64,7 +64,7 @@ export const LinkPreview = ({
   return (<>
     {isMounted ? (
       <div className="hidden">
-        <Image
+        <img
           src={src}
           width={width}
           height={height}
@@ -115,7 +115,7 @@ export const LinkPreview = ({
                 href={url}
                 className="block p-1 bg-white border-2 border-transparent shadow rounded-xl hover:border-neutral-200 dark:hover:border-neutral-800"
                 style={{ fontSize: 0 }}>
-                <Image
+                <img
                   src={isStatic ? imageSrc : src}
                   width={width}
                   height={height}
