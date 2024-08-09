@@ -9,7 +9,7 @@ import {
 export default function GlowingStarsBackgroundCardPreview() {
   return (
     <section className="py-8 w-full">
-      <div className="flex flex-wrap justify-center py-8 px-12 gap-4 sm:gap-6 items-center font-extralight">
+      <div className="flex flex-wrap justify-center py-8 px-12 gap-5 sm:gap-6 items-center font-extralight">
         <button className="px-4 py-1 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white cursor-pointer">all</button>
         <button className="px-4 py-1 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white cursor-pointer">valorant</button>
         <button className="px-4 py-1 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white cursor-pointer">warzone</button>
