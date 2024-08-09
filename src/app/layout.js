@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "CipherWAuth",
+  title: "CipherAuth",
   description: `Welcome to CipherAuthTo pay w/ CashApp, Apple Pay, Google Pay, or Venmo, open a ticket in our Discord server!
   Discord TikTok YouTube. 1784. Product Sold. 4.8.`,
 };
