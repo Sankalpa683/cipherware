@@ -54,7 +54,7 @@ export default function ShootingStarsAndStarsBackgroundDemo() {
         </div>
         <div className="py-10 w-fullflex flex-wrap flex-col justify-center items-center text-center text-2xl sm:gap-4xl gap-5">
           <div className="flex flex-row gap-4 flex-wrap items-center text-center justify-center">
-            {/* Removing AnimatedTooltip for performance */}
+            <AnimatedTooltip items={people} />
           </div>
           <div className="py-8">
             <p className="text-2xl">Based on verified website purchases</p>
