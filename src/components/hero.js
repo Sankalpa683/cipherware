@@ -4,6 +4,7 @@ import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { Cover } from "@/components/ui/cover";
 import { FlipWords } from "./ui/flip-words";
+import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { FaDiscord, FaYoutube, FaTiktok } from "react-icons/fa";
 import { FaShoppingCart, FaRegStar } from "react-icons/fa";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
