@@ -19,7 +19,7 @@ export default function GlowingStarsBackgroundCardPreview() {
         <button className="px-4 py-1 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white cursor-pointer">fivem</button>
         <button className="px-4 py-1 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white cursor-pointer">xdefiant</button>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 ">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 ">
         <div className="flex py-6 px-4 items-center justify-center text-center break-all w-full antialiased">
 
           <GlowingStarsBackgroundCard>
