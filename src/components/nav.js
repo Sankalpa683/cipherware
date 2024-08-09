@@ -1,8 +1,7 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
-import { motion, AnimatePresence } from 'framer-motion';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,32 +36,25 @@ const Nav = () => {
             <button className='py-3 px-6 bg-[#007BFF] text-[#ffffff] hover:bg-blue-800 transition-all rounded-lg'>Sign Up</button>
           </div>
           <div className='flex flex-col md:hidden items-center justify-center cursor-pointer' onClick={toggleMenu}>
-            <RxHamburgerMenu className='text-3xl ' />
+            <RxHamburgerMenu className='text-3xl' />
           </div>
         </nav>
 
         {/* Mobile dropdown menu */}
-        <AnimatePresence>
-          {isOpen && (
-            <motion.div 
-              initial={{ opacity: 0, y: -20 }} 
-              animate={{ opacity: 1, y: 0 }} 
-              exit={{ opacity: 0, y: -20 }}
-              className="fixed top-16 left-0 w-full bg-white shadow-lg z-40"
-            >
-              <hr/>
-              <div className='flex flex-col items-center py-4 px-2'>
-                <button className='py-3 w-full rounded-lg text-center text-[#007BFF] font-semibold text-lg'>Sign In</button>
-                <button className='py-4 w-full text-center bg-[#007BFF] text-[#ffffff] rounded-lg mt-2'>Sign Up</button>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {isOpen && (
+          <div className={`fixed top-16 left-0 w-full bg-white shadow-lg z-40 transition-transform duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-5'}`}>
+            <hr />
+            <div className='flex flex-col items-center py-4 px-2'>
+              <button className='py-3 w-full rounded-lg text-center text-[#007BFF] font-semibold text-lg'>Sign In</button>
+              <button className='py-4 w-full text-center bg-[#007BFF] text-[#ffffff] rounded-lg mt-2'>Sign Up</button>
+            </div>
+          </div>
+        )}
       </header>
       <hr />
       <br/>
     </>
   );
-}
+};
 
 export default Nav;
