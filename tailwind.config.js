@@ -68,11 +68,16 @@ module.exports = {
         },
       },
       boxShadow: {
+<<<<<<< HEAD
         boxShadow: {
           'custom': 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px',
           'nice': 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px', 
         },
         
+=======
+        'custom': 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px',
+        'nice': 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;',
+>>>>>>> fc5022287f01d24ab157bee7ceeb5d2612528137
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
