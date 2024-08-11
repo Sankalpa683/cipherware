@@ -56,8 +56,16 @@ const Nav = () => {
         >
           <hr />
           <div className='flex flex-col items-center py-4 px-2'>
-            <button className='py-3 w-full rounded-lg text-center text-[#007BFF] font-semibold text-lg'>Sign In</button>
-            <button className='py-4 w-full text-center bg-[#007BFF] text-[#ffffff] rounded-lg mt-2'>Sign Up</button>
+            <button className='py-3 w-full rounded-lg text-center text-[#007BFF] font-semibold text-lg'>
+              <Link href="/auth/signin">
+                Sign In
+              </Link>
+            </button>
+            <button className='py-4 w-full text-center bg-[#007BFF] text-[#ffffff] rounded-lg mt-2'>
+              <Link href="/auth/signup">
+                Sign Up
+              </Link>
+            </button>
           </div>
         </div>
       </header>
