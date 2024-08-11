@@ -18,6 +18,7 @@ const Nav = () => {
     <>
       <header className='py-3 px-4 w-full fixed z-50 bg-white shadow-md'>
         <nav className='flex flex-wrap justify-between px-0 sm:px-4'>
+          <a href='/'>
           <div className='flex flex-wrap gap-1 sm:gap-4 items-center'>
             <img
               src='https://i.imgur.com/C6Nd1I0.png'
@@ -32,6 +33,7 @@ const Nav = () => {
               <span className='text-[#007BFF]'>{spanhighlight ? spanhighlight : 'Auth'}</span>
             </h1>
           </div>
+          </a>
           <div className='hidden md:flex flex-wrap items-end gap-6'>
             <button className='py-2 px-6 rounded-lg text-[#007BFF] border-2 border-[#007BFF] text-center transition-all hover:bg-[#007BFF] hover:text-white text-lg'>
               <Link href="/auth/signin">
