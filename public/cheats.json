@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "HWID Spoofer",
+      "image": "https://i.imgur.com/XfCUSa2.png",
+      "genre": ["spoofer"],
+      "buyLink": "#"
+    },
+    {
+      "id": 2,
+      "title": "Valorant Full",
+      "image": "https://i.imgur.com/x0pGahu.png",
+      "genre": ["valorant"],
+      "buyLink": "#"
+    },
+    {
+      "id": 3,
+      "title": "Valorant Aimbot",
+      "image": "https://i.imgur.com/H7Hai7l.png",
+      "genre": ["valorant"],
+      "buyLink": "#"
+    },
+    {
+      "id": 4,
+      "title": "Valorant Esp",
+      "image": "https://i.imgur.com/dvw5g4J.png",
+      "genre": ["valorant"],
+      "buyLink": "#"
+    },
+    {
+      "id": 5,
+      "title": "XDefiant Full",
+      "image": "https://i.imgur.com/1u3Y08p.png",
+      "genre": ["xdefiant"],
+      "buyLink": "#"
+    },
+    {
+      "id": 6,
+      "title": "Rocket League AI Bot",
+      "image": "https://i.imgur.com/DxdS8fl.png",
+      "genre": ["rocket league"],
+      "buyLink": "#"
+    },
+    {
+      "id": 7,
+      "title": "Valorant Pro",
+      "image": "https://i.imgur.com/VvW9Wkj.png",
+      "genre": ["valorant"],
+      "buyLink": "#"
+    }
+  ]
+  
