@@ -58,16 +58,6 @@
     --chart-5: 340 75% 55%;
   }
 }
-@font-face {
-  font-family: 'Cal Sans';
-  src: url('/fonts/calsans.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: 'Cal Sans', sans-serif;
-}
 
 @layer base {
   * {
